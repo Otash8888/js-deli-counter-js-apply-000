@@ -39,4 +39,6 @@ function takeANumber (katzDeliLine,newCustomer){
   return message
   
 }
+ 
+function  
 
