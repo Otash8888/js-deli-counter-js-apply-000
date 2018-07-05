@@ -64,11 +64,11 @@ function currentLine (katzDeliLine){
      
     }
     message2 =  `The line is currently: ${newArray1.join(",")}`
- `The line is currently: 1. Ada, 2. Grace`
+ 
 
     
     
     
   }
-  
+return message2;  
 }
