@@ -63,7 +63,7 @@ function currentLine (katzDeliLine){
       
      
     }
-    message2 =  `The line is currently: ${newArray1.join(",")}`
+    message2 =  `The line is currently: ${newArray1.join(", ")}`
  
 
     
