@@ -50,4 +50,6 @@ function  nowServing (katzDeliLine){
   }
   return message1
 }
-
+function currentLine (katzDeliLine){
+  
+}
