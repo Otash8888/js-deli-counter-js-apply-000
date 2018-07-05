@@ -40,5 +40,10 @@ function takeANumber (katzDeliLine,newCustomer){
   
 }
  
-function  
+function  nowServing (katzDeliLine){
+  if(katzDeliLine.length == 0){
+    
+  }
+  
+}
 
