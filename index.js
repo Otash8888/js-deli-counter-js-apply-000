@@ -51,5 +51,11 @@ function  nowServing (katzDeliLine){
   return message1
 }
 function currentLine (katzDeliLine){
+  var message2;
+  if(katzDeliLine.length === 0){
+    message2 = 
+  }else{
+    `The line is currently: 1. Ada, 2. Grace`
+  }
   
 }
