@@ -52,7 +52,7 @@ function  nowServing (katzDeliLine){
 }
 function currentLine (katzDeliLine){
   var message2;
-  var newArray1;
+  var newArray1=[];
   if(katzDeliLine.length === 0){
     message2 = "The line is currently empty."
   }else{
