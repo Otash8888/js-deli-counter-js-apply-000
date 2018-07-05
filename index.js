@@ -1,4 +1,4 @@
-var katzDeli = [];
+/*var katzDeli = [];
 var n=0;
 function takeANumber(katzDeli) {
    
@@ -29,4 +29,8 @@ function currentLine(katzDeli) {
 return `The line is currently:${newArray.toString()}`
 }
   
-}
+}*/
+
+
+
+
