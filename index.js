@@ -60,10 +60,12 @@ function currentLine (katzDeliLine){
     for (var i = 0; i<katzDeliLine.length; i++){
       
       newArray1[i]=`${i+1}. ${katzDeliLine[i]}`
-      `The line is currently: 1. Ada, 2. Grace`
-
+      
+     
     }
-    
+    message2 =  `The line is currently: ${newArray1.join(",")}`
+ `The line is currently: 1. Ada, 2. Grace`
+
     
     
     
