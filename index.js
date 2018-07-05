@@ -1,35 +1,35 @@
-/*var katzDeli = [];
-var n=0;
-function takeANumber(katzDeli) {
-   
-  
-  katzDeli.push(n + katzDeli.length);
-  return `Welcome, You are number ${n} in line.`
+/*
 
+var katzDeli = [];
+var n = 0;
+function takeANumber (newCustomer){
+  katzDeli.push(n+1);
+ n = n + 1;
+  var message = `Welcome, You are number ${katzDeli.length} in line.`
+  return message
   
 }
-function nowServing(katzDeli) {
+function nowServing(nowSerCustomer) {
+  var message2;
 if (katzDeli.length === 0) {
-  return "There is nobody waiting to be served!"
+   message2 = "There is nobody waiting to be served!"
 } else{
- var str = `Currently serving ${n}.`
- katzDeli.shift();
- return str
-}
-}
-function currentLine(katzDeli) {
-  if (katzDeli.length === 0) {
-  return "The line is currently empty."
-} else{
- var newArray=[];
- for (let i=0;i<katzDeli.length;i++){
-   newArray[i]=` ${i+1}. ${katzDeli[i]}`
- }
+ message2 = `Currently serving  ${katzDeli[0]}.`
+ katzDeli.shift()
  
-return `The line is currently:${newArray.toString()}`
+ 
 }
-  
-}*/
+return message2
+}
+
+console.log(takeANumber("john"))
+console.log(takeANumber("otis"))
+console.log(takeANumber("Greg"))
+console.log(nowServing("john"))
+console.log(nowServing("otis"))
+console.log(nowServing("Greg"))
+console.log(nowServing("New One"))
+*/
 
 
 var katzDeli = []
@@ -60,15 +60,10 @@ function currentLine (katzDeliLine){
     for (var i = 0; i<katzDeliLine.length; i++){
       
       newArray1[i]=`${i+1}. ${katzDeliLine[i]}`
-      
      
     }
     message2 =  `The line is currently: ${newArray1.join(", ")}`
  
-
-    
-    
-    
   }
 return message2;  
 }
