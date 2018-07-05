@@ -32,5 +32,10 @@ return `The line is currently:${newArray.toString()}`
 }*/
 
 
-
+var katzDeli = []
+function takeANumber (katzDeliLine,newCustomer){
+  katzDeliLine.push(newCustomer);
+  con
+  
+}
 
