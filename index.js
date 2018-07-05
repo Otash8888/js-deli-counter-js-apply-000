@@ -52,10 +52,21 @@ function  nowServing (katzDeliLine){
 }
 function currentLine (katzDeliLine){
   var message2;
+  var newArray1;
   if(katzDeliLine.length === 0){
-    message2 = 
+    message2 = "The line is currently empty."
   }else{
-    `The line is currently: 1. Ada, 2. Grace`
+    
+    for (var i = 0; i<katzDeliLine.length; i++){
+      
+      newArray1[i]=`${i+1}. ${katzDeliLine[i]}`
+      `The line is currently: 1. Ada, 2. Grace`
+
+    }
+    
+    
+    
+    
   }
   
 }
